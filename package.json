@@ -1,0 +1,18 @@
+{
+  "name": "near-nft-test",
+  "version": "1.0.0",
+  "license": "(MIT AND Apache-2.0)",
+  "type": "module",
+  "scripts": {
+    "build": "near-sdk-js build src/contract.ts build/nft.wasm",
+    "build2": "near-sdk-js build src/contract2.ts build/bridge.wasm"
+  },
+  "dependencies": {
+    "near-cli": "4.0.0",
+    "near-sdk-js": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "ts-morph": "^20.0.0"
+  }
+}
